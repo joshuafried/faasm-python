@@ -19,7 +19,7 @@ ${BUILD_PIP} install -e .
 popd >> /dev/null
 
 echo "Installing cython"
-${BUILD_PIP} install cython
+${BUILD_PIP} install cython==0.29.1
 
 # Run the set-up script
 pushd ${PROJ_ROOT} >> /dev/null

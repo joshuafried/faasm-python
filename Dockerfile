@@ -10,7 +10,7 @@ RUN apt update && apt install -y libssl-dev
 RUN mkdir -p /code \
     && git clone \
         -b v${FAASM_PYTHON_VERSION} \
-        https://github.com/faasm/python \
+        https://github.com/joshuafried/faasm-python \
         /code/python \
     && cd /code/python \
     && git submodule update --init -f third-party/cpp \
