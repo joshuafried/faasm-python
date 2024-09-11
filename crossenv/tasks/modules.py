@@ -55,8 +55,8 @@ PYPI_LIBS = [
     # "dulwich",
     "Genshi",
     "pyaes",
-    "pyperf",
-    "pyperformance",
+    "pyperf==2.5.0",
+    #"pyperformance",
     "six",
 ]
 
